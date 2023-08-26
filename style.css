@@ -5,8 +5,6 @@
 }
 
 .wrapper{
-    height: 100vh;
-    width: 100vw;
     font-family: 'Poppins';
 }
 
@@ -18,7 +16,6 @@
     max-width: 1380px;
     margin: auto;
     width: 100%;
-    object-fit: contain;
 }
 .logo{
     display: flex;
@@ -80,7 +77,6 @@ a{
     width: 75%;
     margin: auto;
     object-fit: contain;
-    height: 120%;
 }
 
 .heading{
@@ -100,18 +96,19 @@ a{
     margin-bottom: 10vh;
 }
 
+
 .card-container{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10%;
+    gap: 40px;
     margin: auto;
-    height: 100%;
+    object-fit: contain;
 }
 
 .card{
     border-radius: 10px;
-    height:180px;
+    min-height:180px;
     width: 1fr;
     display: flex;
     align-items: center;
@@ -123,7 +120,6 @@ a{
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 100%;
     width: 75%;
     object-fit: contain;
 }
@@ -131,14 +127,13 @@ a{
 .mentor-heading{
     width: 100%;
     text-align: center;
-
 }
 
 .id-conatiner{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10%;
+    gap:40px;
     row-gap: 40px;
     margin: auto;
 }
@@ -166,7 +161,6 @@ a{
     display: flex;
     flex-direction: column;
     margin: auto;
-    height: 100%;
     width: 75%;
 }
 
@@ -174,7 +168,7 @@ a{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10%;
+    gap: 40px;
     margin: auto;
     object-fit: contain;
 }
@@ -203,7 +197,6 @@ a{
     
     .uni-container{
         align-items: center;
-        height: 220vh;
     }
 
     .card-container{
@@ -217,15 +210,10 @@ a{
     }
 
 
-    .mentor-container{
-        height: 160vh;
-    }
-
     .id-conatiner{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 10%;
         row-gap: 40px;
         margin: auto;
     }
@@ -236,6 +224,8 @@ a{
     }
 
 }
+
+
 @media (max-width: 600px) {
     .nav-items{
         display: none;
@@ -243,13 +233,11 @@ a{
     
     .uni-container{
         align-items: center;
-        height: 420vh;
     }
 
     .card-container{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        gap: 4%;
     }
 
     .heading{
@@ -258,15 +246,10 @@ a{
     }
 
 
-    .mentor-container{
-        height: 300vh;
-    }
-
     .id-conatiner{
         width: 100%;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        gap: 10%;
         row-gap: 40px;
         margin: auto;
     }
