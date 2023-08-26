@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top:1rem;
+    max-width: 1380px;
+    margin: auto;
+    width: 100%;
+    object-fit: contain;
+}
+.logo{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+}
+.logo-img{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.nav-items {
+    display: flex;
+    padding:0 3rem;    
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight:500;
+    width: 90%;
+    align-items: center;
+}
+
+.nav-items a{
+    color: black;
+    cursor: pointer;
+    padding: 6px;
+}
+.nav-items div{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+}
+a{
+    text-decoration: none;
+}
+.nav-items div:hover{
+    box-shadow: 0px 2px 0px 0px #5804a6;
+}
+
+.login-btn{
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%) ;
+    padding: 10px;
+    color: white;
+    font-weight: 800;
+    border-radius:10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+.login-btn:hover{
+    cursor: pointer;
+    scale: 1.1;
+    box-shadow: 0px 3px 3px 0px #B656E2;
+}
+
+.uni-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    object-fit: contain;
+    height: 100%;
+}
+
+.heading{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+    text-align: start;
+    letter-spacing: 0.02em;
+    background: linear-gradient(90.23deg, #234EB0 2.75%, #B656E2 104.73%) ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 70%;
+    margin-top: 15vh;
+}
+
+.card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+    margin: auto;
+}
+
+.card{
+    border-radius: 10px;
+    height:180px;
+    width: 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mentor-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    width: 75%;
+}
+
+.mentor-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.id-conatiner{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+    row-gap: 40px;
+    margin: auto;
+}
+
+.ids{
+    border-radius: 10px;
+    height:180px;
+    width: 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.01);
+}
+
+.ids img{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.advisor{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 70%;
+    width: 75%;
+}
+
+.advisor-cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.message-btn{
+    box-shadow: 1px 1px 1px 3px #254daf;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    border: none;
+    color: #254daf;
+    font-weight: 600; 
+    transition: all 0.3s ease;
+}
+.message-btn:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
